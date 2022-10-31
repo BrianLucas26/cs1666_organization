@@ -24,15 +24,21 @@
 2. 10/19 - 10/25
 	* Manager: Alex Haskovec
 	* Goals:
-		1. ...
-		1. ...
-		1. ...
+		1. Communication between server and client
+		1. Server supporting 1+ client
+		1. Command line arguments for networking information (server + port + filename)/(client + ip + port)
+		2. Destroy blocks
+		3. Implement Perlin Slice Algorithm to generate world surface 
+		4. Implement random-polygon ore vein generation algorithm 
 2. 10/26 - 11/01
 	* Manager: Ryan Chakov
 	* Goals:
-		1. ...
-		1. ...
-		1. ...
+		1. Implement Perlin noise cave generation algorithm (This is going to probably take 2 weeks so we don't expect to finish)
+		1. Change from a finite map to a infinite downward map
+		1. Implement network heartbeats/acks with sequence numbers
+		2. Serialize player location
+		3. Support multiple clients
+		4. Finish working on Command line arguments
 2. 11/02 - 11/08
 	* Manager: Wilson Biggs
 	* Goals:
